@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物（npm run build 生成，不入库）
+lib/
+
+# electron-builder 输出（node scripts/dist.mjs 生成）
+dist-app/
+dist-app-*/
+dist/
+
+# 日志与临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
